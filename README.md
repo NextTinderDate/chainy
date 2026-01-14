@@ -20,5 +20,3 @@ Adds skills/blood pacts to the pool to view possible chains
 Selected weapons:
 Displays the weapons in the pool. Click to remove
 
-Results:
-Click to print the chain to the party chat
