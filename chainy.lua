@@ -2,7 +2,7 @@
 	addon.name      = 'Chainy';
 	addon.author    = 'cerseii';
 	addon.version   = '1.0';
-	addon.desc      = 'Chain cobos';
+	addon.desc      = 'Chain combos';
 	addon.link      = 'N/A';
 
 
@@ -959,7 +959,7 @@ update = false;
 		imgui.Text("No results");
 	else
 		imgui.Separator();	
-		imgui.Text("Print to Party");
+		imgui.Text("Print to Party (disabled)");
 	end
 
 	if(table.getn(member)>1) then
@@ -977,7 +977,7 @@ update = false;
 			combobutton[x] = imgui.Button(combolist[x]);
 			
 			if (combobutton[x]) then
-				testcm:QueueCommand(1,"/p "..combolist[x]);
+				-- disabled   testcm:QueueCommand(1,"/p "..combolist[x]);
 			end
 	
 		end
